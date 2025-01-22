@@ -1,0 +1,140 @@
+    html{
+        scroll-behavior: smooth;
+    }
+
+
+    nav {
+        background-color: hsl(27, 92%, 44%);
+        background-size: cover;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(https://i.pinimg.com/originals/2f/48/ef/2f48ef7d6542e1c80ff5f5c03d1a0f3d.jpg);
+        height: 1024px;
+
+
+    }
+
+    .left img {
+        width: 95px;
+        display: inline-block;
+        position: absolute;
+        top: 19px;
+        left: 20px;
+        /* border: 2px solid green; */
+    }
+
+    .mid {
+        display: block;
+        margin: 20px auto;
+        width: 80%;
+        /* border: 2px solid black; */
+        font-family: "Righteous", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        top: 39px;
+        right: 20px;
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+        font-family: "Righteous", sans-serif;
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+        padding-left: 60px;
+        padding-right: 80px;
+
+    }
+
+    .navbar li a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 10px px;
+
+
+    }
+
+    .btn {
+        background-color: rgb(232, 144, 36);
+        color: rgb(64, 36, 3);
+        margin: -14px 6px;
+        padding: 11px 14px;
+        border-radius: 15px;
+        border: none;
+        font-size: 12px;
+        cursor: pointer;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .btn:hover {
+        color: rgb(52, 80, 133);
+    }
+
+    .navbar li a:hover {
+        color: brown;
+    }
+
+    .cont {
+        border: 2px solid brown;
+        margin: 150px 80px;
+        padding: 30px 60px;
+        width: 31%;
+        border-radius: 10px;
+    }
+
+    .formgrp input {
+        text-align: center;
+        font-style: italic;
+        margin: 6px auto;
+        padding: 12px 58px;
+        display: block;
+        font-size: 10px;
+        width: 188px;
+
+    }
+
+    .cont h2 {
+        font-family: "Righteous", sans-serif;
+        text-align: center;
+        color: rgb(133, 65, 17);
+
+
+    }
+
+    .cont button {
+        margin: 10px 130px;
+        padding: 3px 4px;
+        width: 30%;
+        text-align: center;
+        font-family: "Exo 2", sans-serif;
+        background-color: rgb(248, 204, 93);
+        color: darkred;
+        border-radius: 6px;
+        border: none;
+    }
+
+    .login {
+        font-family: "Exo 2", sans-serif;
+        text-align: center;
+    }
